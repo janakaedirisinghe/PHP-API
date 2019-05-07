@@ -15,7 +15,16 @@ class Youtube extends Controller
         return $data;
     }
     public function insert(Request $request){
-        print_r($request->input('id'));
+       // print_r($request->input('user_id'));
+
+        $order = new Order;
+        $order->id = $request->input('id');
+
+        echo $order->save();
+
+
+
+
 
     }
 }
