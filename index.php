@@ -12,7 +12,9 @@
     			$users[$OutputData['id']] == array(
     					'id' => $OutputData['id'],
     					'name' => $OutputData['name'],
-    					'age' => $OutputData['age']
+    					'age' => $OutputData['age'],
+                        'picture' => $OutputData['picture'],
+                        'mobile' => $OutputData['mobile']
     			);
     			
     		}
