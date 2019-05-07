@@ -3,15 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Model\User;
-use App\Model\Order;
+use App\Model\Student;
 
 
 class Youtube extends Controller
 {
 
     public function index(){
-        $data = User::all();
+        $data = Student::all();
         return $data;
     }
 
@@ -21,12 +20,12 @@ class Youtube extends Controller
     public function insert(Request $request){
 
 
-        $order = new Order();
-        $order->id = $request->input('id');
-        $order->OrderNumber = $request->input('OrderNumber');
-        $order->user_id = $request->input('user_id');
+        $student = new Student();
+        $student->id = $request->input('id');
+        $student->name = $request->input('name');
+        $student->age = $request->input('age');
 
-        $result = $order->save();
+        $result = $student->save();
 
         if ($result){
             echo 'record added!';
