@@ -14,13 +14,26 @@ class Youtube extends Controller
         $data = User::all();
         return $data;
     }
+
+    /**
+     * @param Request $request
+     */
     public function insert(Request $request){
-       // print_r($request->input('user_id'));
+       echo ($request->input('id'));
+        echo ($request->input('OrderNumber'));
+        echo ($request->input('user_id'));
 
-        $order = new Order;
+        $order = new Order();
         $order->id = $request->input('id');
+        $order->OrderNumber = $request->input('OrderNumber');
+        $order->user_id = $request->input('user_id');
 
-        echo $order->save();
+        $order->save();
+
+
+
+
+
 
 
 
