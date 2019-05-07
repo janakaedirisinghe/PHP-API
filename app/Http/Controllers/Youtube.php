@@ -15,7 +15,7 @@ class Youtube extends Controller
         return $data;
     }
     public function insert(Request $request){
-        print_r($request->input());
+        print_r($request->input('id'));
 
     }
 }
