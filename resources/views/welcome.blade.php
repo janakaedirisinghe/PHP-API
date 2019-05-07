@@ -79,10 +79,10 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    GET AND POST USERS API
                 </div>
 
-                <a href="about">About</a>
+                jp
             </div>
         </div>
     </body>
