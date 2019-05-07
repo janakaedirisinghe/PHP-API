@@ -82,7 +82,9 @@
                     GET AND POST USERS API
                 </div>
 
-                jp
+                <h3>get user : url/api <br>
+                post user : url/insert
+                </h3>
             </div>
         </div>
     </body>
