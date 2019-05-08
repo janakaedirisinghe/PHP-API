@@ -2,20 +2,19 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-use App\Model\Student;
+use App\User;
 
+use Illuminate\Http\Request;
 
 class Youtube extends Controller
 {
-
     public function index(){
-        $data = Student::all();
+        $data =User::all();
         return $data;
     }
 
     public function showData($id){
-        $data = Student::find($id);
+        $data = User::find($id);
         return $data;
     }
 
@@ -25,12 +24,13 @@ class Youtube extends Controller
     public function insert(Request $request){
 
 
-        $student = new Student();
-        $student->id = $request->input('id');
-        $student->name = $request->input('name');
-        $student->age = $request->input('age');
+        $user = new User();
+        $user->id = $request->input('id');
+        $user->name = $request->input('name');
+        $user->email = $request->input('email');
+        $user->age = $request->input('age');
 
-        $result = $student->save();
+        $result = $user->save();
 
         if ($result){
             echo 'record added!';
@@ -38,4 +38,5 @@ class Youtube extends Controller
 
 
     }
+
 }

@@ -1,97 +1,173 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+    <title>Laravel</title>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+    <!-- Fonts -->
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-            .full-height {
-                height: 100vh;
-            }
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
+</head>
+<body>
 
-            .position-ref {
-                position: relative;
-            }
+<div class="jumbotron jumbotron-fluid" style="text-align: center">
+    <div class="container">
+        <h1 class="display-4" style="color: #2ab27b" >USER GENERATOR API</h1>
+        <p class="lead">A free API for generating users data for test</p>
+    </div>
+</div>
 
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
+<br>
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+        <h3>How to use?</h3>
+        <p>You can use AJAX to call the Random User Generator API and will receive a randomly generated user in return. </p>
+        <pre style="border-left-width: 5px;border-left-style: solid;border-left-color: #2ab27b">
 
-            .content {
-                text-align: center;
-            }
+    $.ajax({
+        url: 'https://randomusersapi.000webhostapp.com/api',
+        dataType: 'json',
+        success: function(data){
+        console.log(data);
+        }
+    });
+ </pre>
+        <br>
+        <h3>Result</h3>
+        <p>The application will provide you with a object and apply to your application. </p>
+        <pre style="border-left-width: 5px;border-left-style: solid;border-left-color: #2ab27b">
+    [
+        {
+        "id": 1,
+        "name": "Clementine Bauch",
+        "email": "Nathan@yes.ut",
+        "age": 25,
+        "created_at": "2019-05-08 12:09:45",
+        "updated_at": "2019-05-08 12:09:45"
+        },
+        {
+        "id": 2,
+        "name": "Ervin Howell",
+        "email": "Shanna@melissa.tv",
+        "age": 23,
+        "created_at": "2019-05-08 12:10:06",
+        "updated_at": "2019-05-08 12:10:06"
+        },
+        {
+        "id": 3,
+        "name": "Clementine Bauch",
+        "email": "Nathan@yesenia.net",
+        "age": 63,
+        "created_at": "2019-05-08 12:10:28",
+        "updated_at": "2019-05-08 12:10:28"
+        },
+        {
+        "id": 4,
+        "name": "Patricia Lebsack",
+        "email": "Julianne.OConner@kory.org",
+        "age": 20,
+        "created_at": "2019-05-08 12:11:39",
+        "updated_at": "2019-05-08 12:11:39"
+        },
+            .
+            .
+            .
+            .
+    ]
 
-            .title {
-                font-size: 84px;
-            }
+ </pre>
+        <br>
 
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
+            <br>
 
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @if (Auth::check())
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ url('/login') }}">Login</a>
-                        <a href="{{ url('/register') }}">Register</a>
-                    @endif
-                </div>
-            @endif
 
-            <div class="content">
-                <div class="title m-b-md">
-                    DUMMY USERS API
-                </div>
+    </div>
+        <div class="col-md-3"></div>
+    </div>
+<div class="row">
+        <div class="col-md-6">
+            <h4>Get Routes</h4><br>
+            GET        /{USER_ID}
+<pre style="border-left-width: 5px;border-left-style: solid;border-left-color: #2ab27b">
 
-                <h3>
-                    get user : url/api <br>
-                    get one user : url/api/{user_id} <br>
-                    insert user : url/insert
+    $.ajax({
+        url: 'https://randomusersapi.000webhostapp.com/api/3',
+        dataType: 'json',
+        success: function(data){
+        console.log(data);
+        }
+    });
+ </pre>
+            <br>
+            <h3>Result</h3>
+            <p>The application will provide you with a object and apply to your application. </p>
+            <pre style="border-left-width: 5px;border-left-style: solid;border-left-color: #2ab27b">
+    [
+        {
+        "id": 3,
+        "name": "Clementine Bauch",
+        "email": "Nathan@yesenia.net",
+        "age": 63,
+        "created_at": "2019-05-08 12:10:28",
+        "updated_at": "2019-05-08 12:10:28"
+        }
+    ]
 
-                </h3>
-               <H4> Develop by JP </H4>
-            </div>
+ </pre>
         </div>
-    </body>
+
+
+    <div class="col-md-6">
+        <h4>Post Routes</h4><br>
+        POST    /insert/
+<pre style="border-left-width: 5px;border-left-style: solid;border-left-color: #2ab27b">
+
+    {
+        "id": 002,
+        "name": "Clementine Bauch",
+        "email": "Nathan@yesenia.net",
+        "age": 45
+    }
+ </pre>
+
+    </div>
+</div>
+    <br>
+
+    <h4>Contact Us</h4>
+    <p>Found a bug or have an idea?
+    Contribute on our <a href="https://github.com/janaka531/PHP-API" style="text-decoration: #2ab27b;color: #2ab27b;">Github Repo.</a></p>
+
+    <hr>
+    <h4>Develop by JP</h4>
+
+
+
+
+
+
+
+<!--
+        <h3>
+            get user : <a style="text-decoration:none;color:#636b6f;" href="https://randomusersapi.000webhostapp.com/api">https://randomusersapi.000webhostapp.com/api</a> <br>
+            get one user : <a style="text-decoration:none;color:#636b6f;" href="https://randomusersapi.000webhostapp.com/api/1">https://randomusersapi.000webhostapp.com/api/{id}</a> <br>
+            insert user : url/insert
+
+        </h3>
+        <H4> Develop by JP </H4>
+
+-->
+</div>
+
+</body>
 </html>
 
 
