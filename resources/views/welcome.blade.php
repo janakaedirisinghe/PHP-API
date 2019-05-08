@@ -13,12 +13,12 @@
 
 
 </head>
-<body>
+<body ">
 
-<div class="jumbotron jumbotron-fluid" style="text-align: center">
+<div class="jumbotron jumbotron-fluid" style="text-align: center;background-color: #222222;height: 20em;">
     <div class="container">
-        <h1 class="display-4" style="color: #2ab27b" >USER GENERATOR API</h1>
-        <p class="lead">A free API for generating users data for test</p>
+        <h1 class="display-4" style="color: #cccccc" >USER GENERATOR API</h1><br>
+        <p class="lead" style="color: #cccccc" >A free API for generating users data for test</p>
     </div>
 </div>
 
@@ -109,7 +109,7 @@
  </pre>
             <br>
             <h3>Result</h3>
-            <p>The application will provide you with a object and apply to your application. </p>
+
             <pre style="border-left-width: 5px;border-left-style: solid;border-left-color: #2ab27b">
     [
         {
@@ -152,27 +152,26 @@
 
     <h4>Contact Us</h4>
     <p>Found a bug or have an idea?
-    Contribute on our <a href="https://github.com/janaka531/PHP-API" style="text-decoration: #2ab27b;color: #2ab27b;">Github Repo.</a></p>
-
-    <hr>
-    <h4>Develop by JP</h4>
-
-    <br><br>
+    Contribute on my <a href="https://github.com/janaka531/PHP-API" style="text-decoration: #2ab27b;color: #2ab27b;">Github Repo.</a></p>
 
 
 
+</div>
+<div class="jumbotron" style="text-align: center;background-color: #222222;margin-bottom: 0px">
+    <div class="container" style="align-items: center;align-content: center;text-align: center">
+        <h1 class="display-4" style="color: #cccccc" >USER GENERATOR API</h1><br>
+        <div class="row">
 
+            <div class="col-md-12" style="color:#e5e9eb;">
+                <a href="https://github.com/janaka531" target="_blank"><img src="img/pic.jpg" class="rounded-circle" style="width: 80px;" alt=""></a>
 
-<!--
-        <h3>
-            get user : <a style="text-decoration:none;color:#636b6f;" href="https://randomusersapi.000webhostapp.com/api">https://randomusersapi.000webhostapp.com/api</a> <br>
-            get one user : <a style="text-decoration:none;color:#636b6f;" href="https://randomusersapi.000webhostapp.com/api/1">https://randomusersapi.000webhostapp.com/api/{id}</a> <br>
-            insert user : url/insert
+                <br><br>
+               <h5>by Janaka Edirisinghe</h5>
 
-        </h3>
-        <H4> Develop by JP </H4>
+            </div>
 
--->
+        </div>
+    </div>
 </div>
 
 </body>
