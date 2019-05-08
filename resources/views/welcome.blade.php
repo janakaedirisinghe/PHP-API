@@ -79,11 +79,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    GET AND POST USERS API
+                    DUMMY USERS API
                 </div>
 
                 <h3>get user : url/api <br>
-                post user : url/insert
+                insert user : url/insert
                 </h3>
                <H4> Develop by JP </H4>
             </div>
