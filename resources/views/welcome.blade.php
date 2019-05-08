@@ -10,6 +10,7 @@
     <!-- Fonts -->
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe" rel="stylesheet">
 
 
 </head>
@@ -21,7 +22,7 @@
         <h1 class="display-4" style="color: #cccccc" >USER GENERATOR API</h1><br>
         <p class="lead" style="color: #cccccc" >A free API for generating users data for test</p>
         <br><br><br><br>
-       <div class="row" style="color: #cccccc;text-align: center">
+       <div class="row" style="color:  white;text-align: center">
            <div class="col-md-4" >
                <h3 >Fake Data</h3>
                No more tedious sample data creation, we've got it covered.
