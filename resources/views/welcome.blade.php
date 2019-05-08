@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>User Genarator</title>
 
     <!-- Fonts -->
 
@@ -30,6 +30,7 @@
         <div class="col-md-6">
         <h3>How to use?</h3>
         <p>You can use AJAX to call the Random User Generator API and will receive a randomly generated user in return. </p>
+            <mark style="background-color: #2ab27b;color: white;" >https://randomusersapi.000webhostapp.com/api </mark>
         <pre style="border-left-width: 5px;border-left-style: solid;border-left-color: #2ab27b">
 
     $.ajax({
@@ -95,7 +96,7 @@
 <div class="row">
         <div class="col-md-6">
             <h4>Get Routes</h4><br>
-            GET        /{USER_ID}
+            <mark style="background-color: #2ab27b;color: white;" >https://randomusersapi.000webhostapp.com/api/3 </mark>
 <pre style="border-left-width: 5px;border-left-style: solid;border-left-color: #2ab27b">
 
     $.ajax({
@@ -127,15 +128,22 @@
 
     <div class="col-md-6">
         <h4>Post Routes</h4><br>
-        POST    /insert/
+        <mark style="background-color: #2ab27b;color: white;" >https://randomusersapi.000webhostapp.com/api/insert </mark>
 <pre style="border-left-width: 5px;border-left-style: solid;border-left-color: #2ab27b">
 
-    {
-        "id": 002,
-        "name": "Clementine Bauch",
-        "email": "Nathan@yesenia.net",
-        "age": 45
+    fetch('https://randomusersapi.000webhostapp.com/api/insert', {
+        method: 'POST',
+        body: JSON.stringify({
+            "id": 002,
+            "name": "Clementine Bauch",
+            "email": "Nathan@yesenia.net",
+            "age": 45
+         }),
+    headers: {
+      "Content-type": "application/json; charset=UTF-8"
     }
+  })
+
  </pre>
 
     </div>
@@ -149,7 +157,7 @@
     <hr>
     <h4>Develop by JP</h4>
 
-
+    <br><br>
 
 
 
