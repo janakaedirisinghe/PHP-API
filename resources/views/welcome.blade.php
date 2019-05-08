@@ -19,22 +19,22 @@
 <div class="jumbotron jumbotron-fluid" style="text-align: center;background-image: -webkit-gradient(linear, left top, left bottom, from(#311847), to(#3EB9E6));
    ">
     <div class="container">
-        <h1 class="display-4" style="color: #cccccc" >USER GENERATOR API</h1><br>
-        <p class="lead" style="color: #cccccc" >A free API for generating users data for test</p>
+        <h1 class="display-4" style="color: white" >USER GENERATOR API</h1><br>
+        <p class="lead" style="color: white" >A free API for generating users data for test</p>
         <br><br><br><br>
        <div class="row" style="color:  white;text-align: center">
            <div class="col-md-4" >
                <h3 >Fake Data</h3>
-               No more tedious sample data creation, we've got it covered.
+               No more tedious sample data creation,<br>we've got it covered.
 
            </div>
            <div class="col-md-4" >
                <h3>Real Responses</h3>
-               Develop with real response codes,GET,POST & DELETE supported.
+               Develop with real response codes GET, <br>POST & DELETE supported.
            </div>
            <div class="col-md-4" >
                 <h3>Always-On</h3>
-               24/7 free access in your develepmont phases.Lets Go.
+               24/7 free access in your develepmont. <br>Lets Go.
            </div>
        </div>
     </div>
@@ -47,7 +47,7 @@
         <div class="col-md-3"></div>
         <div class="col-md-6">
         <h3>How to use?</h3>
-        <p>You can use AJAX to call the Random User Generator API and will receive a randomly generated user in return. </p>
+        <p>You can use AJAX to call the Users Generator API and will receive a generated users in return. </p>
             <mark style="background-color: #3097D1;color: white;" >https://randomusersapi.000webhostapp.com/api </mark>
         <pre style="border-left-width: 5px;border-left-style: solid;border-left-color: #3097D1">
 
@@ -190,9 +190,9 @@
 
 
 </div>
-<div class="jumbotron" style="text-align: center;background-image: -webkit-gradient(linear, left top, left bottom, from(#3EB9E6), to(#311847));margin-bottom: 0px; ">
+<div class="jumbotron" style="text-align: center;background-image: -webkit-gradient(linear, left top, left bottom, from(#3EB9E6), to(#311847));margin-bottom: 0px;height: 13em ">
     <div class="container" style="align-items: center;align-content: center;text-align: center">
-        <h1 class="display-4" style="color: #cccccc" >USER GENERATOR API</h1><br>
+
         <div class="row">
 
             <div class="col-md-12" style="color:#e5e9eb;">
