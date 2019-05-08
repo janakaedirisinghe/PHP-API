@@ -10,12 +10,22 @@ class Youtube extends Controller
 {
     public function index(){
         $data =User::all();
-        return $data;
+        return response()->json($data);
     }
 
     public function showData($id){
         $data = User::find($id);
         return $data;
+    }
+
+    public function delete($id){
+        $result = User::where('id',$id)->delete();
+        if ($result){
+            echo "record deleted successfully";
+        }else{
+            echo "failed to delete.";
+        }
+
     }
 
     /**
