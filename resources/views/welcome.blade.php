@@ -15,10 +15,27 @@
 </head>
 <body ">
 
-<div class="jumbotron jumbotron-fluid" style="text-align: center;background-color: #222222;height: 20em;">
+<div class="jumbotron jumbotron-fluid" style="text-align: center;background-image: -webkit-gradient(linear, left top, left bottom, from(#311847), to(#3EB9E6));
+   ">
     <div class="container">
         <h1 class="display-4" style="color: #cccccc" >USER GENERATOR API</h1><br>
         <p class="lead" style="color: #cccccc" >A free API for generating users data for test</p>
+        <br><br><br><br>
+       <div class="row" style="color: #cccccc;text-align: center">
+           <div class="col-md-4" >
+               <h3 >Fake Data</h3>
+               No more tedious sample data creation, we've got it covered.
+
+           </div>
+           <div class="col-md-4" >
+               <h3>Real Responses</h3>
+               Develop with real response codes,GET,POST & DELETE supported.
+           </div>
+           <div class="col-md-4" >
+                <h3>Always-On</h3>
+               24/7 free access in your develepmont phases.Lets Go.
+           </div>
+       </div>
     </div>
 </div>
 
@@ -143,6 +160,7 @@
     <div class="col-md-6">
         <h4>Post Routes</h4><br>
         <mark style="background-color: #2ab27b;color: white;" >https://randomusersapi.000webhostapp.com/api/insert </mark>
+        <br><br>
 <pre style="border-left-width: 5px;border-left-style: solid;border-left-color: #2ab27b">
 
     fetch('https://randomusersapi.000webhostapp.com/api/insert', {
@@ -171,7 +189,7 @@
 
 
 </div>
-<div class="jumbotron" style="text-align: center;background-color: #222222;margin-bottom: 0px">
+<div class="jumbotron" style="text-align: center;background-color: #222222;margin-bottom: 0px; ">
     <div class="container" style="align-items: center;align-content: center;text-align: center">
         <h1 class="display-4" style="color: #cccccc" >USER GENERATOR API</h1><br>
         <div class="row">
