@@ -20,3 +20,5 @@ Route::get('/',"Youtube@index");
 
 Route::post('/insert',"Youtube@insert");
 
+Route::get('/{id}',"Youtube@showData");
+

@@ -14,6 +14,11 @@ class Youtube extends Controller
         return $data;
     }
 
+    public function showData($id){
+        $data = Student::find($id);
+        return $data;
+    }
+
     /**
      * @param Request $request
      */
@@ -30,13 +35,6 @@ class Youtube extends Controller
         if ($result){
             echo 'record added!';
         }
-
-
-
-
-
-
-
 
 
     }

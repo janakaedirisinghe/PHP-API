@@ -82,8 +82,11 @@
                     DUMMY USERS API
                 </div>
 
-                <h3>get user : url/api <br>
-                insert user : url/insert
+                <h3>
+                    get user : url/api <br>
+                    get one user : url/api/{user_id} <br>
+                    insert user : url/insert
+
                 </h3>
                <H4> Develop by JP </H4>
             </div>
