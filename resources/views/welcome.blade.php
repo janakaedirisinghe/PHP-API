@@ -123,6 +123,20 @@
     ]
 
  </pre>
+            <br>
+            <h3>Delete</h3>
+            <mark style="background-color: #2ab27b;color: white;" >https://randomusersapi.000webhostapp.com/api/delete/4 </mark>
+            <pre style="border-left-width: 5px;border-left-style: solid;border-left-color: #2ab27b">
+
+    $.ajax({
+        url: 'https://randomusersapi.000webhostapp.com/api/delete/4',
+        dataType: 'json',
+        success: function(data){
+        console.log(data);
+        }
+    });
+ </pre>
+
         </div>
 
 
