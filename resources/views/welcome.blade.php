@@ -13,7 +13,7 @@
 
 
 </head>
-<body ">
+<body style="">
 
 <div class="jumbotron jumbotron-fluid" style="text-align: center;background-image: -webkit-gradient(linear, left top, left bottom, from(#311847), to(#3EB9E6));
    ">
@@ -47,8 +47,8 @@
         <div class="col-md-6">
         <h3>How to use?</h3>
         <p>You can use AJAX to call the Random User Generator API and will receive a randomly generated user in return. </p>
-            <mark style="background-color: #2ab27b;color: white;" >https://randomusersapi.000webhostapp.com/api </mark>
-        <pre style="border-left-width: 5px;border-left-style: solid;border-left-color: #2ab27b">
+            <mark style="background-color: #3097D1;color: white;" >https://randomusersapi.000webhostapp.com/api </mark>
+        <pre style="border-left-width: 5px;border-left-style: solid;border-left-color: #3097D1">
 
     $.ajax({
         url: 'https://randomusersapi.000webhostapp.com/api',
@@ -61,7 +61,7 @@
         <br>
         <h3>Result</h3>
         <p>The application will provide you with a object and apply to your application. </p>
-        <pre style="border-left-width: 5px;border-left-style: solid;border-left-color: #2ab27b">
+        <pre style="border-left-width: 5px;border-left-style: solid;border-left-color: #3097D1">
     [
         {
         "id": 1,
@@ -113,8 +113,8 @@
 <div class="row">
         <div class="col-md-6">
             <h4>Get Routes</h4><br>
-            <mark style="background-color: #2ab27b;color: white;" >https://randomusersapi.000webhostapp.com/api/3 </mark>
-<pre style="border-left-width: 5px;border-left-style: solid;border-left-color: #2ab27b">
+            <mark style="background-color: #3097D1;color: white;" >https://randomusersapi.000webhostapp.com/api/3 </mark>
+<pre style="border-left-width: 5px;border-left-style: solid;border-left-color: #3097D1">
 
     $.ajax({
         url: 'https://randomusersapi.000webhostapp.com/api/3',
@@ -127,7 +127,7 @@
             <br>
             <h3>Result</h3>
 
-            <pre style="border-left-width: 5px;border-left-style: solid;border-left-color: #2ab27b">
+            <pre style="border-left-width: 5px;border-left-style: solid;border-left-color: #3097D1">
     [
         {
         "id": 3,
@@ -142,8 +142,8 @@
  </pre>
             <br>
             <h3>Delete</h3>
-            <mark style="background-color: #2ab27b;color: white;" >https://randomusersapi.000webhostapp.com/api/delete/4 </mark>
-            <pre style="border-left-width: 5px;border-left-style: solid;border-left-color: #2ab27b">
+            <mark style="background-color: #3097D1;color: white;" >https://randomusersapi.000webhostapp.com/api/delete/4 </mark>
+            <pre style="border-left-width: 5px;border-left-style: solid;border-left-color: #3097D1">
 
     $.ajax({
         url: 'https://randomusersapi.000webhostapp.com/api/delete/4',
@@ -159,9 +159,9 @@
 
     <div class="col-md-6">
         <h4>Post Routes</h4><br>
-        <mark style="background-color: #2ab27b;color: white;" >https://randomusersapi.000webhostapp.com/api/insert </mark>
+        <mark style="background-color: #3097D1;color: white;" >https://randomusersapi.000webhostapp.com/api/insert </mark>
         <br><br>
-<pre style="border-left-width: 5px;border-left-style: solid;border-left-color: #2ab27b">
+<pre style="border-left-width: 5px;border-left-style: solid;border-left-color: #3097D1">
 
     fetch('https://randomusersapi.000webhostapp.com/api/insert', {
         method: 'POST',
@@ -184,12 +184,12 @@
 
     <h4>Contact Us</h4>
     <p>Found a bug or have an idea?
-    Contribute on my <a href="https://github.com/janaka531/PHP-API" style="text-decoration: #2ab27b;color: #2ab27b;">Github Repo.</a></p>
+    Contribute on my <a href="https://github.com/janaka531/PHP-API" style="text-decoration: #3097D1;color: #3097D1;">Github Repo.</a></p>
 
 
 
 </div>
-<div class="jumbotron" style="text-align: center;background-color: #222222;margin-bottom: 0px; ">
+<div class="jumbotron" style="text-align: center;background-image: -webkit-gradient(linear, left top, left bottom, from(#3EB9E6), to(#311847));margin-bottom: 0px; ">
     <div class="container" style="align-items: center;align-content: center;text-align: center">
         <h1 class="display-4" style="color: #cccccc" >USER GENERATOR API</h1><br>
         <div class="row">
