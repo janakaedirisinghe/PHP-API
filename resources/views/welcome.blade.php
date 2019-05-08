@@ -166,7 +166,7 @@
                 <a href="https://github.com/janaka531" target="_blank"><img src="img/pic.jpg" class="rounded-circle" style="width: 80px;" alt=""></a>
 
                 <br><br>
-               <h5>by Janaka Edirisinghe</h5>
+               <h5 style="color: #bcc0c2">by Janaka Edirisinghe</h5>
 
             </div>
 
