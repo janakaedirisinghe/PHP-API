@@ -246,7 +246,7 @@
 </div>
 
 
-<div class="jumbotron" style="text-align: center;background-image: -webkit-gradient(linear, left top, left bottom, from(#3EB9E6), to(#311847));margin-bottom: 0px;height: 13em ">
+<div class="jumbotron" style="text-align: center;background-image: -webkit-gradient(linear, left top, left bottom, from(#3EB9E6), to(#311847));margin-bottom: 0px;">
     <div class="container" style="align-items: center;align-content: center;text-align: center">
 
         <div class="row">
@@ -257,13 +257,16 @@
 
                 <br><br>
                  <h5 style="color: #bcc0c2">by Janaka Edirisinghe</h5> -->
-                BY JANAKA EDIRISINGHE
+                <a href="https://github.com/janaka531" target="_blank" style="color: white;text-decoration: none">>> BY JANAKA EDIRISINGHE << </a>
 
             </div>
 
         </div>
     </div>
 </div>
+
+
+
 
 
 
