@@ -26,6 +26,17 @@ class Youtube extends Controller
         return response() -> json($user);
     }
 
+    public function update(Request $request, $id){
+        $user = User::find($id);
+        $user->name = $request->input('name');
+        $user->email = $request->input('email');
+        $user->age = $request->input('age');
+        $result = $user->save();
+        if ($result){
+            return response()->json($user);
+        }
+    }
+
     /**
      * @param Request $request
      */

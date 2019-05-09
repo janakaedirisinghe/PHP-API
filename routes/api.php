@@ -25,3 +25,5 @@ Route::get('/{id}',"Youtube@showData");
 
 
 Route::delete('/{id}',"Youtube@delete");
+
+Route::put('/{id}',"Youtube@update");
