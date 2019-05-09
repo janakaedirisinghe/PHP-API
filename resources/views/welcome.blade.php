@@ -111,6 +111,23 @@
     </div>
         <div class="col-md-3"></div>
     </div>
+    <!-- new styling  -->
+
+    <div class="row">
+        <button type="button" class="btn btn-primary">
+            Notifications <span class="badge badge-light">4</span>
+        </button>
+        <div class="alert alert-primary" role="alert">
+            This is a primary alert—check it out!
+        </div>
+    </div>
+
+
+
+
+
+    <!-- new styling end  -->
+    <br>
 <div class="row">
         <div class="col-md-6">
             <h4>Get Routes</h4><br>
