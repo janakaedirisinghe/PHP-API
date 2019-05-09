@@ -18,14 +18,12 @@ class Youtube extends Controller
         return $data;
     }
 
-    public function delete($id){
-        $result = User::where('id',$id)->delete();
-        if ($result){
-            echo "record deleted successfully";
-        }else{
-            echo "failed to delete.";
-        }
+    public function delete(Request $request , $id){
 
+        $user = User::find($id);
+        $user->delete();
+
+        return response() -> json($user);
     }
 
     /**

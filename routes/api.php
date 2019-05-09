@@ -24,4 +24,4 @@ Route::post('/insert',"Youtube@insert");
 Route::get('/{id}',"Youtube@showData");
 
 
-Route::get('/delete/{id}',"Youtube@delete");
+Route::delete('/{id}',"Youtube@delete");

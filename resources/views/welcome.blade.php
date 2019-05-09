@@ -7,14 +7,14 @@
 
     <title>User Genarator</title>
 
-    <!-- Fonts -->
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe" rel="stylesheet">
 
 
 </head>
-<body style="">
+<body >
+
 
 <div class="jumbotron jumbotron-fluid" style="text-align: center;background-image: -webkit-gradient(linear, left top, left bottom, from(#311847), to(#3EB9E6));
    ">
@@ -206,6 +206,7 @@
         </div>
     </div>
 </div>
+
 
 </body>
 </html>
