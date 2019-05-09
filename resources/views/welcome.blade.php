@@ -234,13 +234,14 @@
 
     </div>
 </div>
+
+
+-->
     <br>
 
     <h4>Contact Us</h4>
     <p>Found a bug or have an idea?
-    Contribute on my <a href="https://github.com/janaka531/PHP-API" style="text-decoration: #3097D1;color: #3097D1;">Github Repo.</a></p>
-
--->
+        Contribute on my <a href="https://github.com/janaka531/PHP-API" style="text-decoration: #3097D1;color: #3097D1;">Github Repo.</a></p>
 
 </div>
 
