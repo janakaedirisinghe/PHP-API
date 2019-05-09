@@ -160,6 +160,9 @@
 
 
     <!-- new styling end  -->
+
+    <!--
+
     <br>
 <div class="row">
     <div class="col-md-6">
@@ -237,9 +240,11 @@
     <p>Found a bug or have an idea?
     Contribute on my <a href="https://github.com/janaka531/PHP-API" style="text-decoration: #3097D1;color: #3097D1;">Github Repo.</a></p>
 
-
+-->
 
 </div>
+
+
 <div class="jumbotron" style="text-align: center;background-image: -webkit-gradient(linear, left top, left bottom, from(#3EB9E6), to(#311847));margin-bottom: 0px;height: 13em ">
     <div class="container" style="align-items: center;align-content: center;text-align: center">
 
