@@ -16,9 +16,8 @@
 <body >
 
 
-<div class="jumbotron jumbotron-fluid" style="text-align: center;background-image: -webkit-gradient(linear, left top, left bottom, from(#311847), to(#3EB9E6));
-   ">
-    <div class="container">
+<div class="jumbotron jumbotron-fluid" style="text-align: center;background-image: -webkit-gradient(linear, left top, left bottom, from(#311847), to(#3EB9E6));">
+
         <h1 class="display-4" style="color: white" >USER GENERATOR API</h1><br>
         <p class="lead" style="color: white" >A free API for generating users data for test</p>
         <br><br><br><br>
@@ -37,12 +36,13 @@
                24/7 free access in your develepmont. <br>Lets Go.
            </div>
        </div>
-    </div>
 </div>
+
 
 <br>
 <br>
 <div class="container">
+
     <div class="row">
         <div class="col-md-3"></div>
         <div class="col-md-6">
@@ -111,16 +111,49 @@
     </div>
         <div class="col-md-3"></div>
     </div>
-    <!-- new styling  -->
 
+
+
+
+    <!-- new styling  -->
     <div class="row">
-        <button type="button" class="btn btn-primary">
-            Notifications <span class="badge badge-light">4</span>
-        </button>
-        <div class="alert alert-primary" role="alert">
-            This is a primary alert—check it out!
+        <div class="alert alert-secondary" role="alert" style="width: 100%">
+            <span class="badge badge-pill badge-secondary">POST</span>
+            API/{ID}
+            <h5 class="float-right">Post an user.</h5>
         </div>
     </div>
+
+    <div class="row">
+        <div class="alert alert-success" role="alert" style="width: 100%">
+            <span class="badge badge-pill badge-success">GET</span>
+            API/
+            <h5 class="float-right">Gets the all users without any specified identifier.</h5>
+        </div>
+    </div>
+    <div class="row">
+        <div class="alert alert-warning" role="alert" style="width: 100%">
+            <span class="badge badge-pill badge-warning">GET</span>
+            API/{ID}
+            <h5 class="float-right">Gets the user with the specified identifier.</h5>
+        </div>
+    </div>
+    <div class="row">
+        <div class="alert alert-danger" role="alert" style="width: 100%">
+            <span class="badge badge-pill badge-danger">DELETE</span>
+            API/{ID}
+            <h5 class="float-right">Deletes the specified user.</h5>
+        </div>
+    </div>
+    <div class="row">
+        <div class="alert alert-info" role="alert" style="width: 100%">
+            <span class="badge badge-pill badge-info">PUT</span>
+            API/{ID}
+            <h5 class="float-right">Update user details with specified identifier.</h5>
+        </div>
+    </div>
+
+
 
 
 
@@ -129,7 +162,7 @@
     <!-- new styling end  -->
     <br>
 <div class="row">
-        <div class="col-md-6">
+    <div class="col-md-6">
             <h4>Get Routes</h4><br>
             <mark style="background-color: #3097D1;color: white;" >https://randomusersapi.000webhostapp.com/api/3 </mark>
 <pre style="border-left-width: 5px;border-left-style: solid;border-left-color: #3097D1">
