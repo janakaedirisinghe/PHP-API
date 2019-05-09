@@ -132,8 +132,8 @@
         </div>
     </div>
     <div class="row">
-        <div class="alert alert-warning" role="alert" style="width: 100%">
-            <span class="badge badge-pill badge-warning">GET</span>
+        <div class="alert alert-success" role="alert" style="width: 100%">
+            <span class="badge badge-pill badge-success">GET</span>
             API/{ID}
             <h5 class="float-right">Gets the user with the specified identifier.</h5>
         </div>
@@ -146,8 +146,8 @@
         </div>
     </div>
     <div class="row">
-        <div class="alert alert-info" role="alert" style="width: 100%">
-            <span class="badge badge-pill badge-info">PUT</span>
+        <div class="alert alert-warning" role="alert" style="width: 100%">
+            <span class="badge badge-pill badge-warning">PUT</span>
             API/{ID}
             <h5 class="float-right">Update user details with specified identifier.</h5>
         </div>
