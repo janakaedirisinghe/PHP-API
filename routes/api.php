@@ -19,10 +19,9 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::get('/',"Youtube@index");
 
-Route::post('/insert',"Youtube@insert");
+Route::post('/',"Youtube@insert");
 
 Route::get('/{id}',"Youtube@showData");
-
 
 Route::delete('/{id}',"Youtube@delete");
 
