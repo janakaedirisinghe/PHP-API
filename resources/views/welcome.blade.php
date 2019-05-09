@@ -16,7 +16,7 @@
 <body >
 
 
-<div class="jumbotron jumbotron-fluid" style="text-align: center;background-image: -webkit-gradient(linear, left top, left bottom, from(#311847), to(#3EB9E6));">
+<div class="jumbotron" style="text-align: center;background-image: -webkit-gradient(linear, left top, left bottom, from(#311847), to(#3EB9E6));">
 
         <h1 class="display-4" style="color: white" >USER GENERATOR API</h1><br>
         <p class="lead" style="color: white" >A free API for generating users data for test</p>
@@ -252,16 +252,19 @@
         <div class="row">
 
             <div class="col-md-12" style="color:#e5e9eb;">
+                <!--
                 <a href="https://github.com/janaka531" target="_blank"><img src="img/pic.jpg" class="rounded-circle" style="width: 80px;" alt=""></a>
 
                 <br><br>
-               <h5 style="color: #bcc0c2">by Janaka Edirisinghe</h5>
+                 <h5 style="color: #bcc0c2">by Janaka Edirisinghe</h5> -->
+                BY JANAKA EDIRISINGHE
 
             </div>
 
         </div>
     </div>
 </div>
+
 
 
 </body>
