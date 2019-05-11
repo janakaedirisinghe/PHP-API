@@ -27,4 +27,4 @@ Route::delete('/{id}',"Youtube@delete");
 
 Route::put('/{id}',"Youtube@update");
 
-Route::Resource('/task','TaskController');
+Route::apiResource('/task','TaskController');
