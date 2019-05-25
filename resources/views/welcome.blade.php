@@ -69,32 +69,24 @@
         "name": "Clementine Bauch",
         "email": "Nathan@yes.ut",
         "age": 25,
-        "created_at": "2019-05-08 12:09:45",
-        "updated_at": "2019-05-08 12:09:45"
         },
         {
         "id": 2,
         "name": "Ervin Howell",
         "email": "Shanna@melissa.tv",
-        "age": 23,
-        "created_at": "2019-05-08 12:10:06",
-        "updated_at": "2019-05-08 12:10:06"
+        "age": 23
         },
         {
         "id": 3,
         "name": "Clementine Bauch",
         "email": "Nathan@yesenia.net",
         "age": 63,
-        "created_at": "2019-05-08 12:10:28",
-        "updated_at": "2019-05-08 12:10:28"
         },
         {
         "id": 4,
         "name": "Patricia Lebsack",
         "email": "Julianne.OConner@kory.org",
         "age": 20,
-        "created_at": "2019-05-08 12:11:39",
-        "updated_at": "2019-05-08 12:11:39"
         },
             .
             .
