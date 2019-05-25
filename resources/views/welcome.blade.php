@@ -139,7 +139,7 @@
     <div class="row">
         <div class="alert alert-warning" role="alert" style="width: 100%">
             <span class="badge badge-pill badge-warning">PUT</span>
-            API/{ID}
+            API/{id}
             <h5 class="float-right">Update user details with specified identifier.</h5>
         </div>
     </div>
