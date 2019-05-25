@@ -125,7 +125,7 @@
     <div class="row">
         <div class="alert alert-success" role="alert" style="width: 100%">
             <span class="badge badge-pill badge-success">GET</span>
-            API/{ID}
+            API/{id}
             <h5 class="float-right">Gets the user with the specified identifier.</h5>
         </div>
     </div>
