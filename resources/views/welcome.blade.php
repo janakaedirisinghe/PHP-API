@@ -110,7 +110,7 @@
     <div class="row">
         <div class="alert alert-secondary" role="alert" style="width: 100%">
             <span class="badge badge-pill badge-secondary">POST</span>
-            API/{ID}
+            API/{id}
             <h5 class="float-right">Post an user.</h5>
         </div>
     </div>
