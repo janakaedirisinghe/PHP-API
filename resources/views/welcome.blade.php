@@ -132,7 +132,7 @@
     <div class="row">
         <div class="alert alert-danger" role="alert" style="width: 100%">
             <span class="badge badge-pill badge-danger">DELETE</span>
-            API/{ID}
+            API/{id}
             <h5 class="float-right">Deletes the specified user.</h5>
         </div>
     </div>
