@@ -1,4 +1,5 @@
 <h2> All Routes </h2>
+<hr>
 <img src="pic.png" alt="pic">
 <br>
 
