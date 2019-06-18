@@ -1,7 +1,7 @@
 <h2> All Routes </h2>
 <hr>
 <img src="pic.png" alt="pic">
-<br>
+
 
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
