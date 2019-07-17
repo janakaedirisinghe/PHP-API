@@ -1,5 +1,7 @@
 <h2> All Routes </h2>
 <hr>
+<img src="https://img.shields.io/github/stars/janaka531/PHP-API.svg">
+
 <img src="pic.png" alt="pic">
 
 
